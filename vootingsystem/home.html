@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>online vooting system  </title>
+        <link rel="stylesheet" href="css/stylesheet.css">
+        <!-- Core Stylesheet -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive/responsive.css" rel="stylesheet">
+    <style>
+    body{
+        background-image: url(pic/vote.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        
+    }
+    .navebar{
+             font-family: calibri; padding-right: 15px; padding-left: 15px;
+        }
+    .navdiv{
+            display: flex; align-items: center; justify-content: space-between;
+        }
+    li{
+            list-style: none; display: inline-block;
+        }
+    li a {
+            color: white; font-size: 18px; font-weight: bold; margin-right:25px;
+        }
+</style>
+    </head>
+    <body>
+        <nav class="navebar">
+            <div class="navdiv">
+                <ul>
+                     <li><a href="../">home</a></li>
+                </ul>
+                </div>
+        <div id="headersection">
+        <h1>ONLINE VOOTING SYSTEM</h1>
+        
+            
+    </div>
+    </nav>
+        <hr>
+        <div id="bodysection">
+        <form action="api/login.php" method="POST">
+            <h2>LOGIN</h2>
+            <input type="number" name="mobile" placeholder="enter mobile"><br><br>
+            <input type="password" name="password" placeholder="enter password"><br><br>
+            <select id="dropbox" name="role">
+            <option value="1">voter</option>
+            <option value="2">group</option>
+        </select>  
+        <br>
+        <br>
+        <button id="loginbutton" type="submit">login</button><br><br>
+        New user?<a href="routers/register.html">Register here</a>
+        </form>
+        </div>
+      </body>
+</html>

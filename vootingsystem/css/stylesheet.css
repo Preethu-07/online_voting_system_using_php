@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    background-color: aqua;
+    color: aliceblue;
+}
+#headersection{
+    padding: 10px;  
+}
+#headersection h1{
+    font-family:cursive;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border-color: rgba(17, 15, 12, 0.837);
+}
+#dropbox{
+    padding: 10px;
+    border-radius: 5px;
+    width: 12%;
+}
+#bodysection{
+ color: aliceblue;
+}
+#loginbutton{
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgb(56, 37, 120);
+    color: white;
+    font-size: 15px;
+}
